@@ -1,66 +1,180 @@
 {
   "stats": {
-    "suites": 4,
-    "tests": 1,
-    "passes": 0,
+    "suites": 11,
+    "tests": 9,
+    "passes": 9,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-04-09T01:35:14.151Z",
-    "end": "2022-04-09T01:35:14.391Z",
-    "duration": 240
+    "failures": 0,
+    "start": "2022-04-09T18:51:35.437Z",
+    "end": "2022-04-09T18:51:35.703Z",
+    "duration": 266
   },
   "tests": [
     {
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
-      "file": "/Users/lara/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:4:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "cats is not defined",
-        "multiple": [
-          {
-            "multiple": "ReferenceError: cats is not defined"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions prependCat(name) prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeLastCat() removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
-      "file": "/Users/lara/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:4:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "cats is not defined",
-        "multiple": [
-          {
-            "multiple": "ReferenceError: cats is not defined"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
-      "title": "\"before each\" hook for \"appends a cat to the end of the cats array\"",
-      "fullTitle": "index.js Array functions \"before each\" hook for \"appends a cat to the end of the cats array\"",
-      "file": "/Users/lara/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "cats is not defined",
-        "multiple": [
-          {
-            "multiple": "ReferenceError: cats is not defined"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions prependCat(name) prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeLastCat() removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "file": "/Users/lara/Re-Coded/Code/Pre-work/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
     }
-  ],
-  "passes": []
+  ]
 }
